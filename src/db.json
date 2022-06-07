@@ -1,0 +1,12 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "Title": "Template",
+      "Category": "Work",
+      "Description": "This is a sample project description",
+      "Status": "Planning",
+      "Complete": false
+    }
+  ]
+}
