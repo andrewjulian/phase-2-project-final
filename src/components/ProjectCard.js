@@ -31,7 +31,12 @@ function ProjectCard({ projects }) {
       <h3>Category: {category}</h3>
       <h3>Status: {status}</h3>
       <p>Description: {description}</p>
-      <input type="checkbox" id={id} onChange={handleChecked}></input>
+      <input
+        type="checkbox"
+        id={id}
+        onChange={handleChecked}
+        checked={checked}
+      ></input>
       <label htmlFor={id}> Complete </label>
     </div>
   );
