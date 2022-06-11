@@ -21,7 +21,7 @@
       "category": "Work",
       "description": "Sample Description",
       "status": "Planning",
-      "complete": true,
+      "complete": false,
       "id": 3
     },
     {

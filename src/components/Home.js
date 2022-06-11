@@ -10,6 +10,7 @@ function Home({ projects, updateScreen }) {
     (project) => project.complete === false
   );
 
+  //creates small card with just
   const projectsDisplayedIncomplete = filteredProjectsIncomplete.map(
     (project, id) => {
       return (

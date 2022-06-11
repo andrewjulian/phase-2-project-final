@@ -18,9 +18,15 @@ function App() {
       });
   }, []);
 
-  function updateScreen() {
-    console.log("running update screen");
-    return setProjects(projects);
+  function updateScreen(updatedProject) {
+    const updatedProjects = projects.map((project) => {
+      if (project.id === updatedProject.id) {
+        return updatedProject;
+      } else {
+        return project;
+      }
+    });
+    setProjects(updatedProjects);
   }
 
   return (

@@ -20,7 +20,7 @@ function ProjectCard({ projects, updateScreen }) {
       }),
     })
       .then((r) => r.json())
-      .then((data) => console.log(data));
+      .then((data) => updateScreen(data));
   }
 
   return (
