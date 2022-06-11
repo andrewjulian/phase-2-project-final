@@ -76,7 +76,7 @@ function NewProject() {
         </label>
         <br />
         <br />
-        <input type="submit" value="Submit" id="button" />
+        <input type="submit" value="Submit" />
       </form>
     </div>
   );

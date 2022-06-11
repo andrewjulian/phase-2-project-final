@@ -3,6 +3,9 @@ import ProjectCard from "./ProjectCard";
 import "../index.css";
 
 function Home({ projects, updateScreen }) {
+  const textColor = {
+    color: "white",
+  };
   const filteredProjectsIncomplete = projects.filter(
     (project) => project.complete === false
   );
@@ -10,7 +13,10 @@ function Home({ projects, updateScreen }) {
   const projectsDisplayedIncomplete = filteredProjectsIncomplete.map(
     (project, id) => {
       return (
-        <ProjectCard projects={project} key={id} updateScreen={updateScreen} />
+        <div key={id} className="projectCardStyle">
+          <h3 style={textColor}>{project.title}</h3>
+          <button>See More</button>
+        </div>
       );
     }
   );
