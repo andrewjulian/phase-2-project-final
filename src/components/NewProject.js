@@ -47,7 +47,7 @@ function NewProject() {
     <div>
       <h1>New Project</h1>
 
-      <form onSubmit={handleSubmit}>
+      <form onSubmit={handleSubmit} className="form">
         <label>
           Title:
           <input type="text" value={title} onChange={handleTitleChange} />
@@ -76,7 +76,7 @@ function NewProject() {
         </label>
         <br />
         <br />
-        <input type="submit" value="Submit" />
+        <input type="submit" value="Submit" id="button" />
       </form>
     </div>
   );

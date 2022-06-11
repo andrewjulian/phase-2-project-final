@@ -2,14 +2,16 @@ import React from "react";
 import ProjectCard from "./ProjectCard";
 import "../index.css";
 
-function Home({ projects }) {
+function Home({ projects, updateScreen }) {
   const filteredProjectsIncomplete = projects.filter(
     (project) => project.complete === false
   );
 
   const projectsDisplayedIncomplete = filteredProjectsIncomplete.map(
     (project, id) => {
-      return <ProjectCard projects={project} key={id} />;
+      return (
+        <ProjectCard projects={project} key={id} updateScreen={updateScreen} />
+      );
     }
   );
 

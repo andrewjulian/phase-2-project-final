@@ -1,14 +1,12 @@
 import React, { useState } from "react";
 import "../index.css";
 
-function ProjectCard({ projects }) {
+function ProjectCard({ projects, updateScreen }) {
   const { id, title, category, description, status, complete } = projects;
 
   const [checked, setChecked] = useState(complete);
 
   function handleChecked() {
-    console.log("status", status);
-
     const newState = checked ? false : true;
     setChecked(newState);
 

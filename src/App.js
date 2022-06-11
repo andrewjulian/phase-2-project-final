@@ -18,15 +18,29 @@ function App() {
       });
   }, []);
 
+  function updateScreen() {
+    console.log("running update screen");
+    return setProjects(projects);
+  }
+
   return (
     <div className="App">
       <NavBar />
       <Routes>
-        <Route exact path="/" element={<Home projects={projects} />} />
+        <Route
+          exact
+          path="/"
+          element={<Home projects={projects} updateScreen={updateScreen} />}
+        />
         <Route path="/newproject" element={<NewProject />} />
         <Route
           path="/completed"
-          element={<CompletedProjects projects={projects} />}
+          element={
+            <CompletedProjects
+              projects={projects}
+              updateScreen={updateScreen}
+            />
+          }
         />
       </Routes>
     </div>

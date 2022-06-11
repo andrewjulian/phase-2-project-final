@@ -1,14 +1,16 @@
 import React from "react";
 import ProjectCard from "./ProjectCard";
 
-function CompletedProjects({ projects }) {
+function CompletedProjects({ projects, updateScreen }) {
   const filteredProjectsComplete = projects.filter(
     (project) => project.complete === true
   );
 
   const projectsDisplayedComplete = filteredProjectsComplete.map(
     (project, id) => {
-      return <ProjectCard projects={project} key={id} />;
+      return (
+        <ProjectCard projects={project} key={id} updateScreen={updateScreen} />
+      );
     }
   );
 

@@ -23,3 +23,21 @@ code {
   padding-top: 5px;
   margin-bottom: 5px;
 }
+
+.form {
+  color: lightblue;
+  box-shadow: 2px 2px 4px #000000;
+  margin: auto;
+  width: 50%;
+  background: gray;
+  border-radius: 5px;
+  padding-bottom: 20px;
+  padding-top: 10px;
+  margin-bottom: 5px;
+}
+
+#button {
+  color: black;
+  background-color: lightblue;
+  border-radius: 50px;
+}

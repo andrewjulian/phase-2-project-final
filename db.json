@@ -14,7 +14,7 @@
       "category": "Personal",
       "description": "This is a sample project description",
       "status": "Needs Review",
-      "complete": false
+      "complete": true
     },
     {
       "title": "Sample",
