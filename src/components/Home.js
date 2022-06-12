@@ -1,6 +1,7 @@
 import React from "react";
 import ProjectCard from "./ProjectCard";
 import "../index.css";
+import { Link, Outlet } from "react-router-dom";
 
 function Home({ projects, updateScreen }) {
   const textColor = {
@@ -14,10 +15,7 @@ function Home({ projects, updateScreen }) {
   const projectsDisplayedIncomplete = filteredProjectsIncomplete.map(
     (project, id) => {
       return (
-        <div key={id} className="projectCardStyle">
-          <h3 style={textColor}>{project.title}</h3>
-          <button>See More</button>
-        </div>
+        <ProjectCard projects={project} key={id} updateScreen={updateScreen} />
       );
     }
   );
@@ -25,7 +23,20 @@ function Home({ projects, updateScreen }) {
   return (
     <div>
       <h1>Open Projects</h1>
-      {projectsDisplayedIncomplete}
+
+      <div>
+        <Link to="/projects/planning" className="projects-nav">
+          Planning
+        </Link>
+        <Link to="/projects/creating" className="projects-nav">
+          Creating
+        </Link>
+        <Link to="/projects/review" className="projects-nav">
+          Needs Review
+        </Link>
+      </div>
+
+      <Outlet />
     </div>
   );
 }

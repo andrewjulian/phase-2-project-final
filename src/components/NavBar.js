@@ -15,8 +15,8 @@ function NavBar() {
 
   return (
     <div>
-      <NavLink to="/" style={linkStyles}>
-        Home
+      <NavLink to="/projects" style={linkStyles}>
+        Projects
       </NavLink>
       <NavLink to="/newproject" style={linkStyles}>
         New Project
