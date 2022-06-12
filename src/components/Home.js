@@ -28,10 +28,10 @@ function Home({ projects, updateScreen }) {
         <Link to="/projects/planning" className="projects-nav">
           Planning
         </Link>
-        <Link to="/projects/creating" className="projects-nav">
+        <Link to="creating" className="projects-nav">
           Creating
         </Link>
-        <Link to="/projects/review" className="projects-nav">
+        <Link to="review" className="projects-nav">
           Needs Review
         </Link>
       </div>

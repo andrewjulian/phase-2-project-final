@@ -9,6 +9,7 @@ import React, { useEffect, useState } from "react";
 import Planning from "./components/Planning";
 import Creating from "./components/Creating";
 import NeedsReview from "./components/NeedsReview";
+import Landing from "./components/Landing";
 
 function App() {
   const [projects, setProjects] = useState([]);
@@ -36,8 +37,9 @@ function App() {
     <div className="App">
       <NavBar />
       <Routes>
+        <Route path="/" element={Landing} />
         <Route
-          path="/*"
+          path="/projects/*"
           element={<Home projects={projects} updateScreen={updateScreen} />}
         >
           <Route path="planning" element={<Planning projects={projects} />} />
