@@ -1,9 +1,12 @@
 import React, { useState } from "react";
+import { useNavigate } from "react-router-dom";
 
-function NewProject() {
+function NewProject({ addNewProject }) {
   const [title, setTitle] = useState("");
   const [category, setCategory] = useState("Work");
   const [description, setDescrption] = useState("");
+
+  const navigate = useNavigate();
 
   function handleTitleChange(event) {
     setTitle(event.target.value);
@@ -18,6 +21,7 @@ function NewProject() {
   }
 
   function handleSubmit(event) {
+    event.preventDefault();
     console.log("handle submit running!");
 
     const newProject = {
@@ -36,8 +40,11 @@ function NewProject() {
       body: JSON.stringify(newProject),
     })
       .then((r) => r.json())
-      .then((data) => console.log(data));
+      .then((data) => {
+        addNewProject(data);
+      });
 
+    navigate("/projects");
     setTitle("");
     setCategory("Work");
     setDescrption("");

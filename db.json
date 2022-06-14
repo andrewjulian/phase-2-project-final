@@ -31,14 +31,6 @@
       "status": "Planning",
       "complete": false,
       "id": 4
-    },
-    {
-      "title": "Sample Project 5",
-      "category": "MISC",
-      "description": "Sdl;fah;oidhf",
-      "status": "Planning",
-      "complete": false,
-      "id": 5
     }
   ]
 }

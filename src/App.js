@@ -34,6 +34,11 @@ function App() {
     setProjects(updatedProjects);
   }
 
+  function addNewProject(newProject) {
+    const newProjectList = [...projects, newProject];
+    setProjects(newProjectList);
+  }
+
   return (
     <div className="App">
       <NavBar />
@@ -81,7 +86,10 @@ function App() {
           />
         </Route>
 
-        <Route path="newproject" element={<NewProject />} />
+        <Route
+          path="newproject"
+          element={<NewProject addNewProject={addNewProject} />}
+        />
         <Route
           path="completed"
           element={
