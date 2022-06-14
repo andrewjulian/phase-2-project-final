@@ -44,6 +44,15 @@ function App() {
           element={<Home projects={projects} updateScreen={updateScreen} />}
         >
           <Route
+            index
+            element={
+              <IncompleteProjects
+                projects={projects}
+                updateScreen={updateScreen}
+              />
+            }
+          />
+          <Route
             path="all"
             element={
               <IncompleteProjects

@@ -3,7 +3,7 @@ import ProjectCard from "./ProjectCard";
 
 function NeedsReview({ projects, updateScreen }) {
   const filteredProjectsNeedsReview = projects.filter(
-    (project) => project.status === "Needs Review"
+    (project) => project.status === "Needs Review" && project.complete == false
   );
 
   const projectsDisplayedReview = filteredProjectsNeedsReview.map(

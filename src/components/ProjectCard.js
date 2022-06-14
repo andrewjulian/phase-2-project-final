@@ -23,11 +23,38 @@ function ProjectCard({ projects, updateScreen }) {
       .then((data) => updateScreen(data));
   }
 
+  function handleCategoryChange(event) {
+    const newCategory = event.target.value;
+
+    console.log("new category", newCategory);
+
+    fetch(`http://localhost:3000/projects/${projects.id}`, {
+      method: "PATCH",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        status: newCategory,
+      }),
+    })
+      .then((r) => r.json())
+      .then((data) => updateScreen(data));
+  }
+
   return (
     <div id={id} className="projectCardStyle">
       <h2>{title}</h2>
       <h3>Category: {category}</h3>
-      <h3>Status: {status}</h3>
+      <select
+        name="category"
+        id="category"
+        value={status}
+        onChange={handleCategoryChange}
+      >
+        <option value="Planning">Planning</option>
+        <option value="Creating">Creating</option>
+        <option value="Needs Review">Needs Review</option>
+      </select>
       <p>Description: {description}</p>
       <input
         type="checkbox"

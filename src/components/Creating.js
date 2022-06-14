@@ -3,7 +3,7 @@ import ProjectCard from "./ProjectCard";
 
 function Creating({ projects, updateScreen }) {
   const filteredProjectsCreating = projects.filter(
-    (project) => project.status === "Creating"
+    (project) => project.status === "Creating" && project.complete == false
   );
 
   const projectsDisplayedCreating = filteredProjectsCreating.map(
