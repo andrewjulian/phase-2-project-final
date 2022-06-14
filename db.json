@@ -5,16 +5,16 @@
       "title": "Template",
       "category": "Work",
       "description": "This is a sample project description",
-      "status": "Planning",
-      "complete": false
+      "status": "Needs Review",
+      "complete": true
     },
     {
       "id": 2,
       "title": "Other Project",
       "category": "Personal",
       "description": "This is a sample project description",
-      "status": "Creating",
-      "complete": true
+      "status": "Needs Review",
+      "complete": false
     },
     {
       "title": "Sample",
@@ -31,6 +31,14 @@
       "status": "Planning",
       "complete": false,
       "id": 4
+    },
+    {
+      "title": "Sample Project 5",
+      "category": "MISC",
+      "description": "Sdl;fah;oidhf",
+      "status": "Planning",
+      "complete": false,
+      "id": 5
     }
   ]
 }

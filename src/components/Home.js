@@ -7,22 +7,10 @@ function Home({ projects, updateScreen }) {
   const textColor = {
     color: "white",
   };
-  const filteredProjectsIncomplete = projects.filter(
-    (project) => project.complete === false
-  );
-
-  //creates small card with just
-  const projectsDisplayedIncomplete = filteredProjectsIncomplete.map(
-    (project, id) => {
-      return (
-        <ProjectCard projects={project} key={id} updateScreen={updateScreen} />
-      );
-    }
-  );
 
   return (
     <div>
-      <h1>Open Projects</h1>
+      <h1>Open Project Status</h1>
 
       <div>
         <Link to="all" className="projects-nav">
@@ -45,7 +33,3 @@ function Home({ projects, updateScreen }) {
 }
 
 export default Home;
-
-// will be a filter feature that populates projects with compeleted as false
-// cards sorted into "status" columns
-// ideally a drag and drop option

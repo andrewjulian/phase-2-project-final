@@ -26,8 +26,6 @@ function ProjectCard({ projects, updateScreen }) {
   function handleCategoryChange(event) {
     const newCategory = event.target.value;
 
-    console.log("new category", newCategory);
-
     fetch(`http://localhost:3000/projects/${projects.id}`, {
       method: "PATCH",
       headers: {
