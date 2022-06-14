@@ -37,18 +37,34 @@ function App() {
     <div className="App">
       <NavBar />
       <Routes>
-        <Route path="/" element={Landing} />
+        <Route path="/" element={<Landing />} />
         <Route
-          path="/projects/*"
+          path="/projects"
           element={<Home projects={projects} updateScreen={updateScreen} />}
         >
-          <Route path="planning" element={<Planning projects={projects} />} />
-          <Route path="creating" element={<Creating projects={projects} />} />
-          <Route path="review" element={<NeedsReview projects={projects} />} />
+          <Route
+            path="planning"
+            element={
+              <Planning projects={projects} updateScreen={updateScreen} />
+            }
+          />
+          <Route
+            path="creating"
+            element={
+              <Creating projects={projects} updateScreen={updateScreen} />
+            }
+          />
+          <Route
+            path="review"
+            element={
+              <NeedsReview projects={projects} updateScreen={updateScreen} />
+            }
+          />
         </Route>
-        <Route path="/newproject" element={<NewProject />} />
+
+        <Route path="newproject" element={<NewProject />} />
         <Route
-          path="/completed"
+          path="completed"
           element={
             <CompletedProjects
               projects={projects}

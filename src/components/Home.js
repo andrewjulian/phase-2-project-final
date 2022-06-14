@@ -25,7 +25,7 @@ function Home({ projects, updateScreen }) {
       <h1>Open Projects</h1>
 
       <div>
-        <Link to="/projects/planning" className="projects-nav">
+        <Link to="planning" className="projects-nav">
           Planning
         </Link>
         <Link to="creating" className="projects-nav">
