@@ -10,6 +10,7 @@ import Planning from "./components/Planning";
 import Creating from "./components/Creating";
 import NeedsReview from "./components/NeedsReview";
 import Landing from "./components/Landing";
+import IncompleteProjects from "./components/IncompleteProjects";
 
 function App() {
   const [projects, setProjects] = useState([]);
@@ -42,6 +43,15 @@ function App() {
           path="/projects"
           element={<Home projects={projects} updateScreen={updateScreen} />}
         >
+          <Route
+            path="all"
+            element={
+              <IncompleteProjects
+                projects={projects}
+                updateScreen={updateScreen}
+              />
+            }
+          />
           <Route
             path="planning"
             element={

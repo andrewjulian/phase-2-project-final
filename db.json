@@ -6,7 +6,7 @@
       "category": "Work",
       "description": "This is a sample project description",
       "status": "Planning",
-      "complete": false
+      "complete": true
     },
     {
       "id": 2,
@@ -21,7 +21,7 @@
       "category": "Work",
       "description": "Sample Description",
       "status": "Planning",
-      "complete": true,
+      "complete": false,
       "id": 3
     },
     {
