@@ -16,9 +16,11 @@
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
 
-[![Forks][forks-shield][https://github.com/andrewjulian/phase-2-project/network/members]]
+[![Forks][forks-shield]][https://github.com/andrewjulian/phase-2-project/network/members]
 [![Stargazers][stars-shield]][https://github.com/andrewjulian/phase-2-project/stargazers]
 [![LinkedIn][linkedin-shield][https://www.linkedin.com/in/andrewjohnjulian/]
+
+[![Contributors][contributors-shield]][contributors-url]
 
 <!-- PROJECT LOGO -->
 <br />
