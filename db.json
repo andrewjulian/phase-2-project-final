@@ -5,8 +5,8 @@
       "title": "Template",
       "category": "Work",
       "description": "This is a sample project description",
-      "status": "Needs Review",
-      "complete": true
+      "status": "Planning",
+      "complete": false
     },
     {
       "id": 2,
@@ -21,16 +21,24 @@
       "category": "Work",
       "description": "Sample Description",
       "status": "Creating",
-      "complete": false,
+      "complete": true,
       "id": 3
     },
     {
       "title": "Sample 4",
       "category": "Work",
       "description": "Sample 4 Desc",
-      "status": "Planning",
+      "status": "Creating",
       "complete": false,
       "id": 4
+    },
+    {
+      "title": "aaaaa",
+      "category": "Work",
+      "description": "aaaaaa",
+      "status": "Planning",
+      "complete": false,
+      "id": 5
     }
   ]
 }

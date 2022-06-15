@@ -22,8 +22,6 @@ function NewProject({ addNewProject }) {
 
   function handleSubmit(event) {
     event.preventDefault();
-    console.log("handle submit running!");
-
     const newProject = {
       title: title,
       category: category,
