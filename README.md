@@ -16,12 +16,6 @@
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
 
-[![Forks][forks-shield]][https://github.com/andrewjulian/phase-2-project/network/members]
-[![Stargazers][stars-shield]][https://github.com/andrewjulian/phase-2-project/stargazers]
-[![LinkedIn][linkedin-shield][https://www.linkedin.com/in/andrewjohnjulian/]
-
-[![Contributors][contributors-shield]][contributors-url]
-
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
@@ -52,8 +46,6 @@
 
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
-
 This project is designed to help an individual keep track of the
 project progress.Each of the pages of the app can be used to create
 new projects, track the progress of uncompleted projects, and catalog
@@ -73,8 +65,6 @@ completed projects.
 
 Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
 
-_For more examples, please refer to the [Documentation](https://example.com)_
-
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- ROADMAP -->
@@ -85,8 +75,6 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 - [ ] State and CRUD used for Data Storage and DOM Display
 - [ ] Client Side Routing with React-Router V6
 - [ ] NestedRoutes for Sorting Display in Project Page
-
-See the [open issues](https://github.com/github_username/repo_name/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 

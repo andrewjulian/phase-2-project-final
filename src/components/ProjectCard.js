@@ -21,6 +21,8 @@ function ProjectCard({ projects, updateScreen }) {
     })
       .then((r) => r.json())
       .then((data) => updateScreen(data));
+
+    setChecked(complete);
   }
 
   function handleCategoryChange(event) {

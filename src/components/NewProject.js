@@ -62,7 +62,12 @@ function NewProject({ addNewProject }) {
         <br />
 
         <label htmlFor="category">Category:</label>
-        <select name="category" id="category" onChange={handleCategoryChange}>
+        <select
+          name="category"
+          id="category"
+          value={category}
+          onChange={handleCategoryChange}
+        >
           <option value="Work">Work</option>
           <option value="Personal">Personal</option>
           <option value="MISC">MISC</option>
