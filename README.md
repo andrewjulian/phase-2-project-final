@@ -74,7 +74,7 @@ You can also change the status of the project via the drop down menu and/or mark
 
 <img src="./src/screenshots/screenshot3.png">
 
-<img src="./src/screenshots/screenshot5.png">
+<img src="./src/screenshots/screenshot4.png">
 
 New projects can be added via the form that is shown on the New Project page. Once the form is submitted, the project will be added to the projects databased and become viewable on the projects page.
 
