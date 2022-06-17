@@ -36,6 +36,8 @@
     </li>
     <li><a href="#usage">Usage</a></li>
     <li><a href="#skills">Skills</a></li>
+    <li><a href="#contributing">Contributing</a></li>
+
   </ol>
 </details>
 
