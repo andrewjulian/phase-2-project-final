@@ -62,7 +62,7 @@ completed projects.
 
 This project has three Routes that allow for different components (and functions) to be managed. Each of these routes are managed by the Navigation Bar at the top of each page.
 
-<img src="/Users/andrewsm1/Development/code/phase-2/phase-2-project/phase-2-project/src/screenshots/screenshot1.png">
+<img src="/Users/andrewsm1/Development/code/phase-2/phase-2-project/phase-2-project/src/screenshots/screenshot1.png" alt="screenshot1">
 
 On the Projects page, you can review un-completed projects and view them by "status" using the NestedRoutes controlled by the links for each status type.
 
