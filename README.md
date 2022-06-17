@@ -35,7 +35,7 @@
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
-    <li><a href="#demonstrated skills">Skills</a></li>
+    <li><a href="#skills">Skills</a></li>
   </ol>
 </details>
 
@@ -82,7 +82,7 @@ New projects can be added via the form that is shown on the New Project page. On
 
 <!-- ROADMAP -->
 
-## Demonstrated Skills
+## Skills
 
 - [ ] Components and Props used for Information Access and Display
 - [ ] State and CRUD used for Data Storage and DOM Display
