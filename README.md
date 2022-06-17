@@ -60,7 +60,22 @@ completed projects.
 
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+This project has three Routes that allow for different components (and functions) to be managed. Each of these routes are managed by the Navigation Bar at the top of each page.
+
+<img src="./screenshots/screenshot1.png">
+
+On the Projects page, you can review un-completed projects and view them by "status" using the NestedRoutes controlled by the links for each status type.
+
+<img src="./screenshots/screenshot2.png">
+
+You can also change the status of the project via the drop down menu and/or mark the project as complete using the check box. Changing the status will result in where it is sorted and viable via the NestedRoutes in the projects page or if it is viewable on the completed projects page.
+
+<img src="./screenshots/screenshot3.png">
+<img src="./screenshots/screenshot4.png">
+
+New projects can be added via the form that is shown on the New Project page. Once the form is submitted, the project will be added to the projects databased and become viewable on the projects page.
+
+<img src="./screenshots/screenshot5.png">
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
