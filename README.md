@@ -66,17 +66,17 @@ This project has three Routes that allow for different components (and functions
 
 On the Projects page, you can review un-completed projects and view them by "status" using the NestedRoutes controlled by the links for each status type.
 
-<img src="/Users/andrewsm1/Development/code/phase-2/phase-2-project/phase-2-project/src/screenshots/screenshot2.png">
+<img src="./src/screenshots/screenshot2.png">
 
 You can also change the status of the project via the drop down menu and/or mark the project as complete using the check box. Changing the status will result in where it is sorted and viable via the NestedRoutes in the projects page or if it is viewable on the completed projects page.
 
-<img src="/Users/andrewsm1/Development/code/phase-2/phase-2-project/phase-2-project/src/screenshots/screenshot3.png">
+<img src="./src/screenshots/screenshot3.png">
 
-<img src="/Users/andrewsm1/Development/code/phase-2/phase-2-project/phase-2-project/src/screenshots/screenshot4.png">
+<img src="./src/screenshots/screenshot5.png">
 
 New projects can be added via the form that is shown on the New Project page. Once the form is submitted, the project will be added to the projects databased and become viewable on the projects page.
 
-<img src="/Users/andrewsm1/Development/code/phase-2/phase-2-project/phase-2-project/src/screenshots/screenshot5.png">
+<img src="./src/screenshots/screenshot5.png">
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
