@@ -5,7 +5,7 @@
       "title": "Template",
       "category": "Work",
       "description": "This is a sample project description",
-      "status": "Planning",
+      "status": "Needs Review",
       "complete": false
     },
     {
@@ -14,14 +14,14 @@
       "category": "Personal",
       "description": "This is a sample project description",
       "status": "Needs Review",
-      "complete": false
+      "complete": true
     },
     {
       "title": "Sample",
       "category": "Work",
       "description": "Sample Description",
       "status": "Creating",
-      "complete": true,
+      "complete": false,
       "id": 3
     },
     {
@@ -33,12 +33,28 @@
       "id": 4
     },
     {
-      "title": "AAAAAAAAA",
+      "title": "Video Project",
       "category": "Work",
-      "description": "AAAAAAAAAA",
+      "description": "This is just a description.",
+      "status": "Creating",
+      "complete": false,
+      "id": 6
+    },
+    {
+      "title": "AAAAAAAAAAA",
+      "category": "Personal",
+      "description": "BBBBBBBBBB",
       "status": "Planning",
       "complete": false,
-      "id": 5
+      "id": 7
+    },
+    {
+      "title": "New Project #3",
+      "category": "Work",
+      "description": "as;dlfhadslkjfnb",
+      "status": "Creating",
+      "complete": false,
+      "id": 8
     }
   ]
 }

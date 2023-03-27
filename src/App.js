@@ -11,6 +11,7 @@ import Creating from "./components/Creating";
 import NeedsReview from "./components/NeedsReview";
 import Landing from "./components/Landing";
 import IncompleteProjects from "./components/IncompleteProjects";
+//import ClickMe from "./components/ClickMe";
 
 function App() {
   const [projects, setProjects] = useState([]);
