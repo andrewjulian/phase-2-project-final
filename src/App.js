@@ -16,6 +16,8 @@ import IncompleteProjects from "./components/IncompleteProjects";
 function App() {
   const [projects, setProjects] = useState([]);
 
+  //new comment to test git
+
   useEffect(() => {
     fetch("http://localhost:3000/projects")
       .then((response) => response.json())
